@@ -24,13 +24,13 @@ app.all('/result4/', (req, res) => {
     if (x_test && req.rawBody) {
         res.setHeader("Content-Type", "application/json");
         res.header("Access-Control-Allow-Headers", "x-text, x-test, Content-Type");
-        res.json({message: "itmo29464", "x-result": x_test, "x-body": req.rawBody});
+        res.json({message: "itmo294646", "x-result": x_test, "x-body": req.rawBody});
     } else {
         res.setHeader("Content-Type", "application/json");
         res.header("Access-Control-Allow-Headers", "x-text, x-test");
-        res.json({message: "itmo29464", "x-result": x_test});
+        res.json({message: "itmo294646", "x-result": x_test});
     }
-    res.json({message: "itmo29464"});
+    res.json({message: "itmo294646"});
 
 });
 
